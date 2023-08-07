@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  text-align: center;
+}
+
+/* Header */
+
+.Todo__Header {
+  font-family: Ubuntu;
+  color: whitesmoke;
+  text-shadow: 1px 1px 3px black;
+  font-size: 35px;
+  background: linear-gradient(to right, #19ad6d, #d25574, #19ad6d);
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  padding: 7px;
+  box-shadow: 0px 2px 5px gray;
+}
+
+/* Add Todos */
+
+.Add__Todo {
+  margin: 20px 150px 22px 150px;
+  padding: 15px 0px 15px 0px;
+}
+.Add__Todo > .Text__Filled {
+  width: 500px;
+}
+/* .Add__Todo > Button {
+  width: 20px;
+  margin: 5px;
+} */
+.buttonWithIcon {
+  display: flex;
+  align-items: center;
+}
+
+.buttonWithIcon svg {
+  margin-right: 8px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Paper */
+.Todo_Rendering {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 150px 20px 150px;
+  padding: 10px;
+}
+.Todo_Rendering > p {
+  font-family: ubuntu;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.Todo_Rendering > div > Button {
+  width: 150px;
+  margin: 5px;
+  align-items: right;
+}
